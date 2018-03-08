@@ -1,8 +1,15 @@
-# The-Ultimate-Collection-of-Ethereum-Solidity-and-Smart-Contracts-Interview-Questions
-The Ultimate Collection of Ethereum, Solidity and Smart Contracts Interview Questions
+# The Ultimate Collection of Ethereum, Solidity and Smart Contracts Interview Questions
 
+You can use this collection of questions for interviews and as a cheatsheet to refresh your knowledge.
 
-## Ethereum:
+## Table of Contents
+
+  1. [Ethereum](#ethereum)
+  1. [Ethereum client (Geth)](#ethereum-client-geth)
+  1. [Smart Contracts and Solidity](#smart-contracts-and-solidity)
+  
+
+## Ethereum
 
 **Q**: What is the value token for Ethereum?
 
