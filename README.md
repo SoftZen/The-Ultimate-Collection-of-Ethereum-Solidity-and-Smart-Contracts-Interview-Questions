@@ -8,7 +8,7 @@ Feel free to contribute to the list.
   1. [Ethereum](#ethereum)
   1. [Ethereum client (Geth)](#ethereum-client-geth)
   1. [Smart Contracts and Solidity](#smart-contracts-and-solidity)
-  
+  1. [DApps and web3](#dapps-and-web3)
 
 ## Ethereum
 
