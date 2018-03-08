@@ -5,6 +5,7 @@ The Ultimate Collection of Ethereum, Solidity and Smart Contracts Interview Ques
 ## Ethereum:
 
 **Q**: What is the value token for Ethereum?
+
 **A**: Ether (ETH)
 
 **Q**: What is the difference between Wei and Ether?
