@@ -1,6 +1,7 @@
 # The Ultimate Collection of Ethereum, Solidity and Smart Contracts Interview Questions
 
 You can use this collection of questions for interviews or as a cheatsheet to refresh your knowledge.
+
 Feel free to contribute to the list.
 
 ## Table of Contents
