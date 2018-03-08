@@ -12,8 +12,9 @@ Feel free to contribute to the list.
 
 ## Ethereum
 
-  **Q**: What is the value token for Ethereum?
-  **A**: Ether (ETH)
+**Q**: What is the value token for Ethereum?
+>**A**: *Ether (ETH)*
+
 
 **Q**: What is the difference between Wei and Ether?
 **A**: Wei is a denomination, like cents to Dollars or pennies to Pounds. 1 ETH = 10^18 Wei
