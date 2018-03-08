@@ -17,10 +17,10 @@ Feel free to contribute to the list.
 
 
 **Q**: What is the difference between Wei and Ether?
->>A: Wei is a denomination, like cents to Dollars or pennies to Pounds. 1 ETH = 10^18 Wei
+>A: Wei is a denomination, like cents to Dollars or pennies to Pounds. 1 ETH = 10^18 Wei
 
 **Q**: What is the average block time in Ethereum?
->>A: ~14 seconds
+>A: ~14 seconds
 
 **Q**: What is the average block size in Ethereum?
 >A: Around 2KB, although it depends.
