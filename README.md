@@ -13,7 +13,7 @@ Feel free to contribute to the list.
 ## Ethereum
 
 **Q**: What is the value token for Ethereum?
->**A**: *Ether (ETH)*
+>**A**: Ether (ETH)
 
 
 **Q**: What is the difference between Wei and Ether?
