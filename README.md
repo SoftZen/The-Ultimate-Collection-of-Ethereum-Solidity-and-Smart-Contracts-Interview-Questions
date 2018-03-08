@@ -1,6 +1,7 @@
 # The Ultimate Collection of Ethereum, Solidity and Smart Contracts Interview Questions
 
-You can use this collection of questions for interviews and as a cheatsheet to refresh your knowledge.
+You can use this collection of questions for interviews or as a cheatsheet to refresh your knowledge.
+Feel free to contribute to the list.
 
 ## Table of Contents
 
@@ -11,9 +12,8 @@ You can use this collection of questions for interviews and as a cheatsheet to r
 
 ## Ethereum
 
-**Q**: What is the value token for Ethereum?
-
-**A**: Ether (ETH)
+  **Q**: What is the value token for Ethereum?
+  **A**: Ether (ETH)
 
 **Q**: What is the difference between Wei and Ether?
 **A**: Wei is a denomination, like cents to Dollars or pennies to Pounds. 1 ETH = 10^18 Wei
