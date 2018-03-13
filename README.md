@@ -63,7 +63,7 @@ Feel free to contribute to the list.
 >No, you can't transfer Ether between networks.
 
  Why would you have a private network?
->There are many reasons, but mainly because of data privacy, distributed database, permissions control and testing.
+>There are many reasons, but mainly because of data privacy, performances, distributed database, permissions control and testing.
 
  How can you easily see details about transactions and blocks?
 >Using blockchain explorers like etherscan.io or live.ether.camp
