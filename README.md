@@ -10,6 +10,7 @@ Feel free to contribute to the list.
   1. [Ethereum client (Geth)](#ethereum-client-geth)
   1. [Smart Contracts and Solidity](#smart-contracts-and-solidity)
   1. [DApps and web3](#dapps-and-web3)
+  1. [Solidity](#solidity)
 
 ## Ethereum
 
@@ -285,3 +286,42 @@ Centralized data can be compromised more easily than decentralized.
 
  Do you know any solutions for scalability in Ethereum?
 >2-layer protocols. Possible solutions are state channels and plasma.
+
+## Solidity
+
+ Is Solidity statically or dynamically typed?
+>It is statically typed, which means that types are known at compilation.
+
+ What is the equivalent to the Java "Class" in Solidity?
+>It's the Contract.
+
+ What is an instance of a contract?
+>An instance of a contract is the deployed contract on the blockchain.
+
+ Give me a couple of differences between Java and Solidity.
+>Solidity supports multiple inheritance but doesn't support overloading
+
+ What is the very first thing you must specify in a Solidity file?
+>The version of Solidity compiler, which is specified as ^0.4.8. It is necessary because it prevents incompatibility errors which can be introduced when compiling with another version.
+
+ What does a contract consist of?
+>It consists mainly of storage variables, functions and events.
+
+ What types of functions are there?
+>There is a constructor, fallback function, constant functions and functions that modify the contract state.
+
+ What error will I get if I put multiple contract definitions into a single Solidity file?
+>It is perfectly fine to put multiple contract definitions into a single Solidity file.
+
+ What are some ways in which two contracts can interact?
+>A contract can invoke, create and inherit from another contract(s).
+
+ What happens when you try to deploy a file with multiple contracts?
+>The compiler only deploys the last contract in that file and all other contracts are ignored.
+
+ What if I have a huge project, do I need to keep all my related contracts into a single file?
+>You can use import statement to import a file, import "./MyOtherContracts.sol";
+
+ Can I only import local files?
+>You can also import files using HTTP (even from Github), import "http://github.com/<owner>/<repo>/<path to the file>"
+
