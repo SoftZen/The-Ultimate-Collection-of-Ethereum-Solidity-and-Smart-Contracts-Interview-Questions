@@ -320,8 +320,8 @@ Centralized data can be compromised more easily than decentralized.
 >The compiler only deploys the last contract in that file and all other contracts are ignored.
 
  What if I have a huge project, do I need to keep all my related contracts into a single file?
->You can use import statement to import a file, import "./MyOtherContracts.sol";
+>You can use import statement to import a file, `import "./MyOtherContracts.sol"`
 
  Can I only import local files?
->You can also import files using HTTP (even from Github), import "http://github.com/<owner>/<repo>/<path to the file>"
+>You can also import files using HTTP (even from Github), `import "http://github.com/<owner>/<repo>/<path to the file>"`
 
