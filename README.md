@@ -325,3 +325,45 @@ Centralized data can be compromised more easily than decentralized.
  Can I only import local files?
 >You can also import files using HTTP (even from Github), `import "http://github.com/<owner>/<repo>/<path to the file>"`
 
+What parts is the memory of an EVM divided into?
+>It is divided into Storage, Memory and Calldata
+
+Explain Storage
+>Think of it as a database. Each contract manages its own Storage variables. It is a key-value datastore (256 bit key & value). The read and write are more costly in terms of gas used per execution.
+
+Explain Memory
+>It is a temporary storage. The data is lost once the execution terminates. You can allocate complext datatypes like arrays and structs.
+
+Explain Calldata
+>It can be tought of as the callstack. It is temporary, non-modifiable, and it stores EVM execution data.
+
+What variables are stored in the Storage and Memory areas respectively?
+>State variables and local variables (wich are references to the state variables) are stored in Storage. Function arguments are located in Memory area.
+
+Take a look at the following code and explain which part of the code corresponds to wich memory area:
+```
+contract MyContract {
+  // part 1
+  uint count;
+  uint[] totalPoints;
+  
+  function localVars(){
+    // part 2
+    uint[] localArr;
+
+    // part 3
+    uint[] memory memoryArr;
+
+    // part 4
+    uint[] pointer = totalPoints;
+  }
+}
+```
+> Part 1 - Storage. 
+> Part 2 - throws an error because it expects to reference a storage variable.
+> Part 3 - Memory.
+> Part 4 - Reference to Storage.
+
+Can I do this: 
+  `function doSomething(uint[] storage args) internal returns(uint[] storage data) {...}`
+>Yes, you can force the arguments of a function to be of type storage. In this case if you do not pass a storage reference, the compiler will complain.
