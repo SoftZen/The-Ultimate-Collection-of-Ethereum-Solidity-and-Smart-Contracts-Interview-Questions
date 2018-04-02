@@ -360,7 +360,7 @@ contract MyContract {
 }
 ```
 > Part 1 - Storage. 
-> Part 2 - throws an error because it expects to reference a storage variable.
+> Part 2 - Storage (array size points to the same location as counter).
 > Part 3 - Memory.
 > Part 4 - Reference to Storage.
 
