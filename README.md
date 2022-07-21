@@ -96,6 +96,26 @@ Feel free to contribute to the list.
  Can you recover your Ethereum account after losing your private key?
 >Yes, you can use your 12 word mnemonic.
 
+ What exactly is EVM bytecode?
+>EVM bytecode is a low-level programming language that is compiled from a high-level programming     language like Solidity. EVM is a virtual machine that sits between the operating system and the application layer to reduce OS dependency. Ethereum smart contracts, thanks to EVM, can be run on nearly any computer. The EVM bytecode comprises opcodes, which are EVM elementary instructions. These opcodes define basic operations such as adding two numbers (ADD), loading data from memory (mload), and so on. The Ethereum yellow paper defines over 100 of these opcodes. We need higher languages like Solidity to help us reason at a higher level of abstraction because coding directly using opcodes would be incredibly tiresome
+ 
+ What is a library and how many types are there?
+>A library is a piece of code that other smart contracts can re-use. There are 2 types of libraries:
+ Deployed- They have their own address, and several other smart contracts can use them.
+ Embedded- They don’t have their own address and are deployed as part of the code of the smart contract that uses them.
+
+ Is it feasible to send a transaction without having to charge customers for gas?
+>You’ll often find this question among the Solidity developer interview questions, and the answer is Yes. You'd have people sign a message on the front end first. The message and signature would then be routed to a centralized backend (off-chain) that would establish a transaction and include the payload (message + signature). This means that instead of the user's wallet, the app's wallet will cover gas costs. A smart contract will validate the signature's validity and perform an activity on behalf of the user on the blockchain.
+
+ What are two APIs that a smart-contract uses to interact with?
+>This is one of the most popular Solidity interview questions. eth_sendTransaction (transaction) and eth_call (call) are the two APIs that are used by a smart contract to interface. Transactions are expensive (gas) and can change the blockchain. Calls don't cost anything; therefore, they can't change the blockchain. However, calls can return a value, which isn't the case with transactions.
+
+ How can you protect yourself from re-entrancy attack?
+>You will frequently come across this Solidity developer interview question.
+Solution 1: Lower balances and update other state variables before invoking the other contract. Solution 2: Implement a re-entrancy guard that uses a variable to determine when a call is second in the stack. Solution 3: Limit the amount of gas available to the called contract. This is automatically done if you use transfer().
+
+ What is the equivalence of Javascript console.log for debugging in Solidity?
+>This question is often a part of the Solidity developer interview questions. In Solidity, there is no comparison; however, you can use events, even if they aren't built for this.
 
 
 ## Ethereum client (Geth)
