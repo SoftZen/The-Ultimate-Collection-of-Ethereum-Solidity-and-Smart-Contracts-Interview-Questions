@@ -270,7 +270,7 @@ Centralized data can be compromised more easily than decentralized.
 >web3.eth.getAccounts
 
  What is the difference between .call and .send?
->.send sends a transaction and costs moeny while .call queries the state of the contract.
+>.send sends a transaction and costs money while .call queries the state of the contract.
 
  Is sending one ether like this ".send({ value: 1 })" okay?
 >No, you send 1 wei. Transactions always work with wei.
